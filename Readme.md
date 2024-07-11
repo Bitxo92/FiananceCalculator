@@ -10,7 +10,7 @@ The Financial Calculator is a JavaFX application designed to calculate the final
 ## Screenshots
 
 
-![Screenshot](![image](https://github.com/Bitxo92/FiananceCalculator/assets/113416139/32dc4269-d7e1-4037-97f7-07a30048f2b3)
+!(![image](https://github.com/Bitxo92/FiananceCalculator/assets/113416139/32dc4269-d7e1-4037-97f7-07a30048f2b3)
 )
 
 
