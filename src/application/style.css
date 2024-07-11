@@ -1,0 +1,53 @@
+.root {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #000000; /* Fondo negro */
+}
+
+.label {
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+    -fx-font-size: 16.0px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-pref-width: 200.0px;
+    -fx-padding: 10.0px;
+    -fx-border-color: #FFFFFF; /* Borde blanco */
+    -fx-border-radius: 5.0px;
+    -fx-background-radius: 5.0px;
+    -fx-background-color: rgba(255.0, 255.0, 255.0, 0.2); /* Fondo semitransparente */
+    -fx-text-fill: #FFFFFF; /* Texto blanco */
+}
+
+.text-field:focused {
+    -fx-border-color: #007ACC; /* Borde azul cuando está enfocado */
+}
+
+.output-label {
+    -fx-text-fill: #007ACC; /* Texto azul */
+    -fx-font-size: 16.0px;
+}
+
+.button {
+    -fx-background-color: #007ACC; /* Fondo azul */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-pref-width: 100.0px;
+    -fx-pref-height: 30.0px;
+    -fx-border-radius: 5.0px;
+    -fx-background-radius: 5.0px;
+    
+}
+
+.button:hover {
+    -fx-background-color: #005FA3; /* Fondo azul más oscuro al pasar el ratón */
+    -fx-cursor:hand;
+}
+
+.tooltip {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-padding: 10.0px;
+    -fx-border-radius: 5.0px;
+    -fx-background-radius: 5.0px;
+    -fx-font-size: 14.0px;
+}
